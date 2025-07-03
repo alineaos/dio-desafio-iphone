@@ -8,7 +8,12 @@ A classe Iphone implementa três interfaces: ReprodutorMusical, AparelhoTelefoni
 A classe Main executa o código exibindo no terminal um menu de opções para cada função. As funções imprimem uma mensagem apenas para simular seu funcionamento.
 
 ## Diagrama UML
-  
+```mermaid
+    classDiagram
+    ReprodutorMusical <|-- Iphone
+    AparelhoTelefonico <|-- Iphone
+    NavegadorInternet <|-- Iphone
+
     class AparelhoTelefonico {
 	    +ligar(String numero)
 	    +atender()
@@ -29,11 +34,7 @@ A classe Main executa o código exibindo no terminal um menu de opções para ca
 
     class Iphone {
     }
-
-    Iphone <|-- ReprodutorMusical
-    Iphone <|-- AparelhoTelefonico
-    Iphone <|-- NavegadorInternet
-
+```
 
 
 
