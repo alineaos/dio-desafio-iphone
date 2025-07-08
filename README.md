@@ -1,6 +1,4 @@
 # :iphone: Desafio: Modelando o iPhone com UML
-Projeto realizado no Bootcamp Santander Back-End e têm como proposta a criação de um método contador e uma classe Exception customizada. 
-
 Projeto realizado no Bootcamp Santander Back-End e têm como proposta a criação de um diagrama UML com as funcionalidades do iPhone e implementar no Java essas funções. 
 
 A classe Iphone implementa três interfaces: ReprodutorMusical, AparelhoTelefonico, NavegadorInternet. As interfaces possuem três métodos abstratos cada uma.
